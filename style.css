@@ -1,0 +1,92 @@
+.main{
+  width: 100%;
+  height: 100vh;
+  background-color: #5f5d60;
+  background-size: cover;
+}
+
+li{
+  list-style: none;
+  font: "Futura Hv BT";
+}
+
+body {
+    margin: 0;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(215, 241, 243, 0.9);
+    position:fixed;
+    top: 0;
+    z-index:10;
+  }
+
+.header-list li{
+  float: left;
+  color: white;
+  padding: 10px 40px;
+  display: inline;
+  text-align: center;
+}
+  
+  .logo {
+    width: 190px;
+    margin-top: 1px;
+    float: left;
+  }
+  
+  .header-left {
+    float: left;
+    opacity: 1;
+    
+  }
+  
+  .header-right {
+    float: right;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
+  }
+  
+  .header-right:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .header-list:hover{
+    background-color: #FF4F00;
+    text-decoration: underline !important;
+  }
+
+
+  .header-right a {
+    line-height: 35px;
+    padding: 0 25px;
+    color: rgb(85, 184, 129);
+    display: block;
+  }
+  
+  footer img {
+    width: 125px;
+  }
+  
+  footer p {
+    color: #b3aeb5;
+    font-size: 12px;
+  }
+  
+  footer {
+    padding-top: 30px;
+  }
+  
+  
