@@ -4484,6 +4484,7 @@ fieldset:disabled .btn {
   justify-content: space-between;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  padding-top: 30px;
 }
 
 .navbar>.container,
@@ -4507,10 +4508,12 @@ fieldset:disabled .btn {
   font-size: 1.25rem;
   text-decoration: none;
   white-space: nowrap;
+
 }
 
 .navbar-brand img {
   max-height: 35px;
+  padding-left: 40px;
 }
 
 .navbar-brand:hover {
@@ -4520,7 +4523,7 @@ fieldset:disabled .btn {
 .navbar-nav {
   display: flex;
   flex-direction: column;
-  padding-left: 0;
+  padding-left: 150px;
   margin-bottom: 0;
   list-style: none;
 }

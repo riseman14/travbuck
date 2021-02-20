@@ -4,13 +4,13 @@
   background-image: url('assets/Background-langit.png');
   background-color: #5f5d60;
   background-size: cover;
-  font: Futura Hv BT;
 }
 
 li {
   color: white;
   font-size: 16px;
   padding-left: 20px;
+  font: "Futura Hv BT";
 }
 
 footer img {
